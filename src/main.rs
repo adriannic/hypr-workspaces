@@ -14,10 +14,7 @@ fn main() -> hyprland::Result<()> {
         return Ok(());
     }
 
-    match Monitors::get()?
-        .filter(|mon| mon.active_workspace.id == selected_ws)
-        .next()
-    {
+    match Monitors::get()?.find(|mon| mon.active_workspace.id == selected_ws) {
         Some(mon) => hyprland::dispatch!(
             SwapActiveWorkspaces,
             MonitorIdentifier::Current,
