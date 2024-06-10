@@ -2,12 +2,13 @@
 
 pkgname=hypr-workspaces
 pkgver=1.0.1
-pkgrel=1
+pkgrel=2
 pkgdesc="Allows monitors to swap workspaces in hyprland"
 arch=('x86_64')
 url="https://github.com/adriannic/hypr-workspaces"
 makedepends=('rust')
 source=()
+options=(!debug)
 
 build() {
   cd "$startdir"
