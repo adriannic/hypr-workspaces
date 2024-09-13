@@ -97,7 +97,7 @@ checksum = "d231dfb89cfffdbc30e7fc41579ed6066ad03abda9e567ccafae602b97ec5024"
 
 [[package]]
 name = "hypr-workspaces"
-version = "1.0.2"
+version = "1.0.3"
 dependencies = [
  "hyprland",
 ]

@@ -1,7 +1,7 @@
 # Mantainer: Adrián Nicolás <nicolas.aguilera.adrian@gmail.com>
 
 pkgname=hypr-workspaces
-pkgver=1.0.2
+pkgver=1.0.3
 pkgrel=1
 pkgdesc="Allows monitors to swap workspaces in hyprland"
 arch=('x86_64')
